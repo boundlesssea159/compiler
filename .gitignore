@@ -1,1 +1,5 @@
 .idea/
+vendor
+*/.agollo
+.vscode
+.agollo
