@@ -18,7 +18,7 @@ func isAlpha(s byte) bool {
 
 // 判断是否为空字符
 func isBlank(s byte) bool {
-	if string(s) == "" {
+	if string(s) == " " {
 		return true
 	}
 	return false
