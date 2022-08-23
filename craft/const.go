@@ -9,15 +9,27 @@ var (
 	Int2 = "int2"
 	Int3 = "int3"
 	// 运算符状态集合
-	Plus  = "plus"  // 加法
-	Minus = "minus" // 减法
-	Star  = "star"  // 乘法
-	Slash = "slash" // 除法
+	Plus  = "plus"  // +
+	Minus = "minus" // -
+	Star  = "star"  // *
+	Slash = "slash" // /
 	// 比较符状态集合
-	Gt = "gt" // 大于
-	Ge = "ge" // 大于等于
-	// 数字状态
-	IntLiteral = "IntLiteral"
-	// 标志符状态
-	Assignment = "Assignment"
+	Gt = "gt" // >
+	Ge = "ge" // >=
+	Eq = "eq" // ==
+	Le = "le" // <=
+	Lt = "lt" // <
+	// id状态
+	Id = "id"
+
+	SemiColon  = "semiColon"  // ;
+	LeftParen  = "leftParen"  // (
+	RightParen = "rightParen" // )
+	Assignment = "Assignment" // =
+
+	If   = "if"
+	Else = "else"
+
+	IntLiteral    = "IntLiteral"    // 数字字面量
+	StringLiteral = "stringLiteral" // 字符串字面量
 )

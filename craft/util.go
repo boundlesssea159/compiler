@@ -7,3 +7,11 @@ func isDigital(s byte) bool {
 	}
 	return false
 }
+
+// 判断是否为字母
+func isAlpha(s byte) bool {
+	if (s >= 'a' && s <= 'z') || (s >= 'A' && s <= 'Z') {
+		return true
+	}
+	return false
+}
