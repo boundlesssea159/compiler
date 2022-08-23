@@ -15,3 +15,11 @@ func isAlpha(s byte) bool {
 	}
 	return false
 }
+
+// 判断是否为空字符
+func isBlank(s byte) bool {
+	if string(s) == "" {
+		return true
+	}
+	return false
+}

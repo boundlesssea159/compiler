@@ -7,7 +7,7 @@ var (
 	// int关键词状态集合
 	Int1 = "int1"
 	Int2 = "int2"
-	Int3 = "int3"
+	Int  = "int"
 	// 运算符状态集合
 	Plus  = "plus"  // +
 	Minus = "minus" // -
